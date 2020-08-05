@@ -10,14 +10,14 @@ export default () => (
 
             <div id="main">
                 <section id="one" className="tiles">
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/comm-styles.png  ')`}}>
                         <header className="major">
                             <h3>Communication Styles Inventory</h3>
                             <p>A quiz to determine your communication style preferences. Modelled after survey designed by Duane Elmer.</p>
                         </header>
                         <Link href="http://communication-styles-inventory.nemcrunchers.dev"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/serenity.png')`}}>
                         <header className="major">
                             <h3>3M IoT Platform</h3>
                             <p>Ingestion platform for commercialization of products. Open-sourced and widely available.</p>
