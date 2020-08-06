@@ -415,4 +415,4 @@ exports.handler = function(event, context, callback) {
   )
   .then(response => callback(null, { statusCode: response.statusCode }))
   .catch(err => callback(err, null))
-}
+} 
