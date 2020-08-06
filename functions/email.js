@@ -336,7 +336,7 @@ function getEmail(message, from){
       </style>
     </head>
     <body class="">
-      <span class="preheader">Your personal communication styles inventory results</span>
+      <span class="preheader"Website contact form</span>
       <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
         <tr>
           <td>&nbsp;</td>
@@ -383,7 +383,7 @@ function sendEmail(client, message, from, replyTo) {
         name: "Nemcrunchers"
       },
       replyTo: replyTo,
-      subject: 'Communication Styles Inventory Results',
+      subject: `Website: ${from}<${replyTo}>`,
       to: "andrew@nemcrunchers.dev",
       bcc: "andrew.mkniger@gmail.com",
       html: getEmail(message, from)
