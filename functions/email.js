@@ -388,6 +388,7 @@ function sendEmail(client, message, from, replyTo) {
       bcc: "andrew.mkniger@gmail.com",
       html: getEmail(message, from)
     }
+    console.log(data)
 
     client
       .send(data)
