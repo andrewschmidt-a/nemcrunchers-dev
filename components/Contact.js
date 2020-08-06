@@ -1,4 +1,5 @@
 const http = require('https')
+var myFormRef = null;
 
 const handleSubmit = function(event){
     event.preventDefault();
@@ -21,7 +22,7 @@ const handleSubmit = function(event){
 
         res.on("end", function () {
             var body = Buffer.concat(chunks);
-            
+            myFormRef.reset()
         });
         });
 
@@ -34,7 +35,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form onSubmit={handleSubmit}>
+                <form ref={(el) => myFormRef = el} onSubmit={handleSubmit}>
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
