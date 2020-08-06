@@ -336,7 +336,7 @@ function getEmail(message, from){
       </style>
     </head>
     <body class="">
-      <span class="preheader"Website contact form</span>
+      <span class="preheader">Website contact form</span>
       <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
         <tr>
           <td>&nbsp;</td>
@@ -388,7 +388,6 @@ function sendEmail(client, message, from, replyTo) {
       bcc: "andrew.mkniger@gmail.com",
       html: getEmail(message, from)
     }
-    console.log(data)
 
     client
       .send(data)
