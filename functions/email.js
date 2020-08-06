@@ -410,7 +410,7 @@ exports.handler = function(event, context, callback) {
   sendEmail(
     client,
     body.message,
-    body.name,
+    body.name, 
     body.email
   )
   .then(response => callback(null, { statusCode: response.statusCode }))
