@@ -1,8 +1,40 @@
+const http = require('https')
+
+const handleSubmit = function(event){
+    event.preventDefault();
+    var options = {
+        "method": "POST",
+        "port": null,
+        "path": "/.netlify/functions/email",
+        "headers": {
+            "content-type": "application/json",
+            "content-length": "69"
+        }
+        };
+
+        var req = http.request(options, function (res) {
+        var chunks = [];
+
+        res.on("data", function (chunk) {
+            chunks.push(chunk);
+        });
+
+        res.on("end", function () {
+            var body = Buffer.concat(chunks);
+            
+        });
+        });
+
+        req.write(JSON.stringify(Object.fromEntries(new FormData(event.target))));
+        req.end();
+}
+
+
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="/.netlify/functions/email">
+                <form onSubmit={handleSubmit}>
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
