@@ -13,7 +13,7 @@ export default () => (
                     <article style={{backgroundImage: `url('/static/images/comm-styles.png  ')`}}>
                         <header className="major">
                             <h3>Communication Styles Inventory</h3>
-                            <p>A quiz to determine your communication style preferences. Modelled after survey designed by Duane Elmer.</p>
+                            <p>An assessment to determine your communication style preferences. Modelled after survey designed by Duane Elmer.</p>
                         </header>
                         <Link href="http://communication-styles-inventory.nemcrunchers.dev"><a className="link primary"></a></Link>
                     </article>
@@ -24,19 +24,33 @@ export default () => (
                         </header>
                         <Link href="https://github.com/3mcloud/azure-iot-platform-dotnet"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/pic01.png  ')`}}>
+                        <header className="major">
+                            <h3>Moran - Data Layer</h3>
+                            <p>Moran is a simple JavaScript Datalayer to pull in data from various sources at run-time or compilation.</p>
+                        </header>
+                        <Link href="https://www.npmjs.com/package/moran"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic02.png')`}}>
+                        <header className="major">
+                            <h3>Event Planning app</h3>
+                            <p>Event Planning app for Global Friends, International student outreach</p>
+                        </header>
+                        <Link href="https://github.com/andrewschmidt-a/global-friends-app"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic03.png')`}}>
                         <header className="major">
                             <h3>Azure Pipelines Generator</h3>
                             <p>A utility designed to provide YAML abstraction layer to Azure Pipelines</p>
                         </header>
-                        <Link href="/"><a className="link primary"></a></Link>
+                        <Link href="https://github.com/andrewschmidt-a/azure-pipeline-generator"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/pic04.png')`}}>
                         <header className="major">
                             <h3>3M Themed CMS system</h3>
-                            <p>Nisl sed aliquam</p>
+                            <p>Used JAMStack and Netlify CMS to create a 3M styled CMS for their Oral Care division.</p>
                         </header>
-                        <Link href="/"><a className="link primary"></a></Link>
+                        <Link href="https://github.com/andrewschmidt-a/3m-cms"><a className="link primary"></a></Link>
                     </article>
                 </section>
             </div>
