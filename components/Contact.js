@@ -58,7 +58,7 @@ const Contact = (props) => (
                 <section>
                     <div className="inner">
                         <header className="">
-                            <h2>“Simplicity is prerequisite for reliability.” </h2>
+                            <h2>“Simplicity is a prerequisite for reliability.” </h2>
                         </header>
                         <p>~ Edsger Dijkstra</p>
                     </div>
