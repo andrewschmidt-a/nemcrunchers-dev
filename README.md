@@ -1,4 +1,4 @@
-# nextjs-starter-forty
+# nemcrunchers.dev
 Andrew Schmidt's Personal Profile, made with Next.js
 
 

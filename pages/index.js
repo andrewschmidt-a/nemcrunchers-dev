@@ -45,6 +45,13 @@ export default () => (
                         </header>
                         <Link href="https://github.com/andrewschmidt-a/azure-pipeline-generator"><a className="link primary"></a></Link>
                     </article>
+                    <article style={{backgroundImage: `url('/static/images/emerald.jpg')`}}>
+                        <header className="major">
+                            <h3>Emerald Package Manager</h3>
+                            <p>A Ruby package manager inspired by npm</p>
+                        </header>
+                        <Link href="https://github.com/andrewschmidt-a/emerald"><a className="link primary"></a></Link>
+                    </article>
                     <article style={{backgroundImage: `url('/static/images/pic04.png')`}}>
                         <header className="major">
                             <h3>3M Themed CMS system</h3>
