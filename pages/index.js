@@ -59,6 +59,14 @@ export default () => (
                         </header>
                         <Link href="https://github.com/andrewschmidt-a/3m-cms"><a className="link primary"></a></Link>
                     </article>
+
+                    <article style={{backgroundImage: `url('/static/images/pic05.png')`}}>
+                        <header className="major">
+                            <h3>Identity Gateway</h3>
+                            <p>Oauth2 compatibie Identity Provider, light-weight and customizable.</p>
+                        </header>
+                        <Link href="https://github.com/3mcloud/azure-iot-platform-dotnet/tree/master/src/services/identity-gateway"><a className="link primary"></a></Link>
+                    </article>
                 </section>
             </div>
 
