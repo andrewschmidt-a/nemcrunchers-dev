@@ -22,7 +22,7 @@ export default () => (
                             <h3>3M IoT Platform</h3>
                             <p>Ingestion platform for commercialization of products. Open-sourced and widely available.</p>
                         </header>
-                        <Link href="https://github.com/3mcloud/azure-iot-platform-dotnet"><a className="link primary"></a></Link>
+                        <Link href="https://3mcloud.github.io/azure-iot-platform-dotnet/index.html"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic01.png  ')`}}>
                         <header className="major">
