@@ -31,6 +31,13 @@ export default () => (
                         </header>
                         <Link href="https://www.npmjs.com/package/moran"><a className="link primary"></a></Link>
                     </article>
+                    <article style={{backgroundImage: `url('/static/images/nertz.png  ')`}}>
+                        <header className="major">
+                            <h3>Nertz</h3>
+                            <p>Nertz is a fun family game to play and now can be practiced online to improve your skills!</p>
+                        </header>
+                        <Link href="https://nertz.nemcrunchers.dev"><a className="link primary"></a></Link>
+                    </article>
                     <article style={{backgroundImage: `url('/static/images/pic02.png')`}}>
                         <header className="major">
                             <h3>Event Planning app</h3>
