@@ -15,7 +15,7 @@ export default () => (
                             <h3>Finance Dashboard</h3>
                             <p>A Financial Command and Control center for the average american.</p>
                         </header>
-                        <Link href="http://communication-styles-inventory.nemcrunchers.dev"><a className="link primary"></a></Link>
+                        <Link href="http://finance.nemcrunchers.dev"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/comm-styles.png  ')`}}>
                         <header className="major">
