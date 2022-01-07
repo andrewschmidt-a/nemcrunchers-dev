@@ -10,6 +10,13 @@ export default () => (
 
             <div id="main">
                 <section id="one" className="tiles">
+                    <article style={{backgroundImage: `url('/static/images/networth.509e56df.png')`}}>
+                        <header className="major">
+                            <h3>Finance Dashboard</h3>
+                            <p>A Financial Command and Control center for the average american.</p>
+                        </header>
+                        <Link href="http://communication-styles-inventory.nemcrunchers.dev"><a className="link primary"></a></Link>
+                    </article>
                     <article style={{backgroundImage: `url('/static/images/comm-styles.png  ')`}}>
                         <header className="major">
                             <h3>Communication Styles Inventory</h3>
