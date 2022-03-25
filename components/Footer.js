@@ -14,6 +14,12 @@ const Footer = (props) => (
                 <li>&copy; nemcrunchers.dev</li><li>Made with <a src="https://nextjs.org/">Next.js</a></li>
             </ul>
         </div>
+        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a coffee', '#29abe0', 'N4N5784YU');kofiwidget2.draw();</script> 
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0264661648520729"
+        crossOrigin="anonymous"
+      ></script>
     </footer>
 )
 
