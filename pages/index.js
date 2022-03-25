@@ -17,7 +17,7 @@ export default () => (
                         </header>
                         <Link href="http://finance.nemcrunchers.dev"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/comm-styles.png  ')`}}>
+                    <article style={{backgroundImage: `url('/static/images/detectauto.png  ')`}}>
                         <header className="major">
                             <h3>Detect Auto</h3>
                             <p>Computer Vision system for auto shops</p>
