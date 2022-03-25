@@ -12,10 +12,10 @@ export default () => (
                 <section id="one" className="tiles">
                     <article style={{backgroundImage: `url('/static/images/comm-styles.png  ')`}}>
                         <header className="major">
-                            <h3>Communication Styles Inventory</h3>
-                            <p>An assessment to determine your communication style preferences. Modelled after survey designed by Duane Elmer.</p>
+                            <h3>Detect Auto</h3>
+                            <p>Computer Vision system for auto shops</p>
                         </header>
-                        <Link href="http://communication-styles-inventory.nemcrunchers.dev"><a className="link primary"></a></Link>
+                        <Link href="http://detectauto.com"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/serenity.png')`}}>
                         <header className="major">
@@ -37,6 +37,13 @@ export default () => (
                             <p>Nertz is a fun family game to play and now can be practiced online to improve your skills!</p>
                         </header>
                         <Link href="https://nerts.nemcrunchers.dev"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/comm-styles.png  ')`}}>
+                        <header className="major">
+                            <h3>Communication Styles Inventory</h3>
+                            <p>An assessment to determine your communication style preferences. Modelled after survey designed by Duane Elmer.</p>
+                        </header>
+                        <Link href="http://communication-styles-inventory.nemcrunchers.dev"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic02.png')`}}>
                         <header className="major">
