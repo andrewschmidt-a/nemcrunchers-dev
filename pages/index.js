@@ -10,7 +10,7 @@ export default () => (
 
             <div id="main">
                 <section id="one" className="tiles">
-                    <article style={{backgroundImage: `url('/static/images/emerald.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/pic11.jpg')`}}>
                         <header className="major">
                             <h3>Axelor ERP Hosting</h3>
                             <p>A one click hosting solution for Open Source ERP</p>
