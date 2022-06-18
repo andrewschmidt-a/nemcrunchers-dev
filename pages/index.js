@@ -10,6 +10,13 @@ export default () => (
 
             <div id="main">
                 <section id="one" className="tiles">
+                    <article style={{backgroundImage: `url('/static/images/emerald.jpg')`}}>
+                        <header className="major">
+                            <h3>Axelor ERP Hosting</h3>
+                            <p>A one click hosting solution for Open Source ERP</p>
+                        </header>
+                        <Link href="https://axelor-hosting.nemcrunchers.dev"><a className="link primary"></a></Link>
+                    </article>
                     <article style={{backgroundImage: `url('/static/images/networth.509e56df.png')`}}>
                         <header className="major">
                             <h3>Finance Dashboard</h3>
@@ -29,7 +36,7 @@ export default () => (
                             <h3>3M IoT Platform</h3>
                             <p>Ingestion platform for commercialization of products. Open-sourced and widely available.</p>
                         </header>
-                        <Link href="https://3mcloud.github.io/azure-iot-platform-dotnet/index.html"><a className="link primary"></a></Link>
+                        <Link href="https://github.com/andrewschmidt-a/azure-iot-platform-dotnet-1"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic01.png  ')`}}>
                         <header className="major">
