@@ -20,6 +20,7 @@ const Footer = (props) => (
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0264661648520729"
         crossOrigin="anonymous"
       ></script>
+      <script src="/static/js/woopra.js"></script>
     </footer>
 )
 
